@@ -8,8 +8,8 @@ np.random.seed(42)
 n = 10000
 
 # Datos base
-ciudades = ['Bogotá', 'Medellín', 'Cali', 'Barranquilla', 'Cartagena']
-productos = ['Laptop', 'Tablet', 'Celular', 'Monitor', 'Teclado', 'Mouse']
+ciudades = ['Bogotá', 'Medellín', 'Cali', 'Barranquilla', 'Cartagena', 'Pasto']
+productos = ['Laptop', 'Tablet', 'Celular', 'Monitor', 'Teclado', 'Mouse', 'Ipad']
 
 # Creamos el dataset
 data = {
