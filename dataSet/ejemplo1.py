@@ -71,15 +71,3 @@ df["Clasificación"] = df["Total"].apply(lambda x: "Alta" if x > 5_000_000 else 
 print("\nClasificación de las ventas (Alta o Normal):")
 print(df["Clasificación"].value_counts())
 
-
-# 8. Ordenar por Total (descendente)
-ventas_ordenadas = df.sort_values(by="Total", ascending=False)
-print("\nTop 5 ventas más altas:")
-print(ventas_ordenadas.head(10))
-
-# 9. Revisar si hay datos nulos
-print("\nValores nulos por columna:")
-print(df.isnull().sum())
-
-#10. Guardar el dataset procesado en un archivo CSV (opcional)
-df.to_csv("ventas_procesadas.csv", index=False)

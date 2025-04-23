@@ -14,9 +14,6 @@ print(mi_dic.get("nombres", "Key no encontrada"))
 #Agregar una clave si no existe
 mi_dic.setdefault("profesion","Ingeniero")
 print(mi_dic)
-#actualizar el diccionario con otro diccionario
-mi_dic.update({"edad":25, "empleado":"independiente"})
-print(mi_dic)
 
 
 
