@@ -15,6 +15,7 @@ a, b, m =coordenadas
 
 print(f"la coordenada en a es {a}")
 print(f"la coordenada en b es {b}")
+print(f"la coordenada en b es {b}")
 suma=a+25
 print(suma)
 
